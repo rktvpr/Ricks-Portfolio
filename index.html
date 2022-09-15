@@ -3,18 +3,93 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Rick Welte Portfolio</title>
 </head>
-
-<header>
- <h1> Rick Welte's Portfolio </h1>
-    <ul>
-      <li>  <a href="Contact-info">Contact info</a> </li> 
-      <li>  <a href="about me">about me</a> </li>
-      <li>  <a href="https://github.com/rktvpr"> Github</a> </li>
-    </ul> 
-</header>
-<main>
+<body>
+<main class="background">
+  <header>
+    <h1 class="title"> Rick Welte's Portfolio 
+      <img class="logo" src="assets\images\Rinnegan.png" alt="logo-placeholder">
+    </h1>
     
+    <nav>
+      <!--make nav link direct user to section of website-->
+        <ul class=navbar type="none">
+          <li>  <a href="Contact-info"> Contact info</a> </li> 
+          <li>  <a href="about me">about me</a> </li>
+          <li>  <a href="My Projects"> My projects</a> </li> 
+        </ul> 
+      </nav>
+  </header>
+  <section class="aboutme">
+    <h1 class="about-me-title">About me</h1>
+    <div class="aboutme-content">
+      <img class="about-me-img" src="assets\images\placeholder.png" alt="placeholder-sasuke">
+      <p>Hello! I am 22 years old and live in Bucks County Pennsylvania.
+        I am currently an HVAC Installer and Propane specialist. 
+        I would like to change career paths due to the harsh working conditions
+        as well as working in a field I have always loved and admired. Computers
+        have been a large part of my life since i was young, and figuring out how
+        programs/games/websites worked and how they were built has always
+        piqued my interest. I currently am enrolled in UPENN's coding bootcamp course to
+        help me achieve this goal and advance my career.
+      </p>
+  </div>
+  </section>
+
+  <section class="projects">
+  <h2>Projects</h2>
+
+  <article class="study-guide">
+    <h3>Pre Work Study Guide</h3>
+      <div class="content">
+        <h4>About</h4>
+            <p>This was my first application made within UPENN Bootcamp's pre-work. I made this to keep track 
+            of my notes and keep them organized initially in the course.
+            </p>
+        <!--make img larger then others/ make the imgs hyperlinks-->
+        <img class="study-guide-img"src="assets\images\Prework Study Guide - Brave 9_15_2022 4_40_07 PM.png" alt="prework-study-guide">
+      </div>
+        <p>Link to page: <a class= "links" href="https://rktvpr.github.io/prework-study-guide/">Here!</a> </p> 
+    </article>  
+
+  <article class="bio-page">
+    <h3>Biography Page</h3>
+      <div class="content">
+        <h4>About</h4>
+        <p>This page was to give a short description of myself, list my contact information, as well as practice
+          basic HTML and CSS 
+        </p>
+        <img class="bio-page-img"src="assets\images\Student Bio With Attributes - Brave 9_15_2022 4_38_33 PM.png" alt="Bio-page">
+      </div>
+        <p>Link to page: <a class= "links" href="https://rktvpr.github.io/bio-repo/">Here!</a> </p>
+      
+  </article>
+
+  <article class="placeholder">
+    <h3>Placeholder</h3>
+     <div class="content"></div>
+        <h4>About</h4>
+        <p>Placeholder description</p>  
+        <img src="assets\images\uchiha placeholder.png" alt="placeholder">
+     </div>
+  </article>
+
+ </section>
+<section>
+  <!--create hover drop down-->
+  <h3>Contact information</h3>
+  <ul>
+    <li> <a href="https://github.com/rktvpr">Github </a> </li>
+    <li> <a href="mailto:rktvpr@gmail.com">Email Me </a> </li>
+    <li> <a href="https://www.linkedin.com/in/rkt-vpr-a263a8246/"> LinkedIn</a> </li>
+  </ul>
+</section>
+<!--add footer-->
 </main>
+
+</body>
+
+</html>

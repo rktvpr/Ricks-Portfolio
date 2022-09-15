@@ -1,0 +1,108 @@
+header{
+   background-color:rgb(41, 29, 53);
+   line-height: 1;
+   box-sizing: border-box;
+   text-align: right;
+   margin-right: 30px;
+}
+.logo{
+    width: 6%;
+    height: 6%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+main {
+color: rgb(255, 255, 255);
+}
+
+.title{
+    text-align: left;
+    color: rgb(214, 214, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background{
+background-image:url(./images/purple-background.png);
+background-size: 100% 100%;
+background-position: fixed;  
+}  
+.navbar{
+font-size: 30px;
+ display:flex;
+ flex-direction:row;
+ justify-content: space-between;   
+}
+
+p{
+    margin: 0 25px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.aboutme{
+    margin: 0 0 20px 20px;
+}
+.aboutme-content{
+    display: flex;
+    flex-direction:row;
+}
+.aboutme h1 {
+font-size: 70px;
+margin: 25px 0px 10px 10px;
+}
+.about-me-img {
+    width: 30%;
+    height: 30%;
+    margin: 15px 0px 15px 0px
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    margin: 30px;
+}
+.content {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+h3 {
+font-size: 1.8em;
+margin-left: 20px;
+line-height: 1.4em;
+}
+h4 {
+    font-size: 1.3em;
+    margin-left: 20px;
+    line-height: 1.2em;   
+}
+
+.study-guide-img{
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px 0px 25px;
+}
+
+.bio-page-img{
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px 0px 25px;
+}
+
+.placeholder img{
+width: 40%;
+height: 40%;
+margin: 0px 0px 0px 25px;
+}
+.projects p {
+  margin: 15px 15px 15px 25px;
+  font-size: medium;  
+}
+
+
+
