@@ -1,9 +1,8 @@
 header{
-   background-color:rgb(41, 29, 53);
+   background-color:rgb(37, 7, 66);
    line-height: 1;
    box-sizing: border-box;
    text-align: right;
-   margin-right: 30px;
 }
 .logo{
     width: 6%;
@@ -13,7 +12,30 @@ header{
 }
 
 main {
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+img{
+    border-radius: 45px;
+    text-shadow: 10px 15px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;  
+    color: white;
+    font-weight:bold;
+    margin: 10px;
+    line-height: 15px;
+    text-shadow: 5px black;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 20px
+   }
+
+a:visited {
+    text-decoration: none;  
+    color: white; 
 }
 
 .title{
@@ -27,34 +49,48 @@ color: rgb(255, 255, 255);
 }
 
 .background{
-background-image:url(./images/purple-background.png);
-background-size: 100% 100%;
-background-position: fixed;  
-}  
+    background-image:url(./images/purple-background.png);
+    background-size: 100% 100%;
+    background-position: fixed;  
+} 
+
 .navbar{
-font-size: 30px;
- display:flex;
- flex-direction:row;
- justify-content: space-between;   
+    font-size: 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    line-height: 40px;  
 }
 
 p{
     margin: 0 25px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 25px;
     text-align: center;
 }
 .aboutme{
     margin: 0 0 20px 20px;
 }
+
+.aboutme-title{
+
+}
+
 .aboutme-content{
     display: flex;
     flex-direction:row;
+    align-items: center;
 }
+
+.aboutme-content{
+    font-size: 35px
+}
+
 .aboutme h1 {
-font-size: 70px;
-margin: 25px 0px 10px 10px;
+    font-size: 70px;
+    margin: 25px 0px 10px 10px;
 }
+
 .about-me-img {
     width: 30%;
     height: 30%;
@@ -69,17 +105,40 @@ h2{
 .content {
     display:flex;
     flex-direction: row-reverse;
+    
+
+}
+
+.about-section{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+
+}
+
+.about-section h4{
+    text-align:center;
 }
 
 h3 {
-font-size: 1.8em;
-margin-left: 20px;
+font-size: 2em;
+margin-left: 45px;
+margin-bottom: 20px;
 line-height: 1.4em;
 }
+
 h4 {
-    font-size: 1.3em;
-    margin-left: 20px;
+    font-size: 1.9em;
     line-height: 1.2em;   
+}
+
+.link-tag{
+    text-align:left;
+    font-size: 20px;
+}
+
+.study-guide{
+    margin-left: 15px
 }
 
 .study-guide-img{
@@ -89,19 +148,49 @@ h4 {
 }
 
 .bio-page-img{
-    width: 50%;
-    height: 50%;
-    margin: 0px 0px 0px 25px;
+width: 40%;
+height: 40%;
+margin-left: 30px
 }
 
-.placeholder img{
+.placeholder img {
 width: 40%;
 height: 40%;
 margin: 0px 0px 0px 25px;
 }
+
+.placeholder-content{
+text-align: left;
+display:flex;
+flex-direction:row-reverse;
+justify-content: flex-end;
+}
+
+.placeholder-image{
+width: 40%;
+height: 40%;
+}
+
+.placeholder-about-section{
+    text-align: center;
+
+}
+
 .projects p {
   margin: 15px 15px 15px 25px;
-  font-size: medium;  
+  font-size: 30px; 
+  line-height: 35px; 
+  text-align: left;
+}
+
+
+footer{
+    line-height: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+
 }
 
 

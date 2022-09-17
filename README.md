@@ -1,6 +1,8 @@
-# Ricks-Portfolio
-A portfolio of the projects I have completed at UPenn's Coding Bootcamp Course
+# <Ricks-Portfolio>
 
+## Description
+
+-A webpage portfolio designed to showcase the work I have done so far in my development career as well as what I have learned to be able to make this webpage.
 
 ## Acceptance Criteria
 
@@ -27,3 +29,21 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+## Installation
+- Deployment link: 
+
+## Usage
+
+- Use the nav bar to direct yourself to different parts of the webpage.
+
+![alt text](assets/images/.png)
+
+## Credits
+- Rick Welte
+
+## License
+
+MIT License
+
+
