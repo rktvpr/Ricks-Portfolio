@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Installation
-- Deployment link: 
+- Deployment link: https://rktvpr.github.io/Ricks-Portfolio/
 
 ## Usage
 

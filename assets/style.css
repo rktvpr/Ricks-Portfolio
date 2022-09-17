@@ -1,41 +1,11 @@
-header{
-   background-color:rgb(37, 7, 66);
-   line-height: 1;
-   box-sizing: border-box;
-   text-align: right;
-}
-.logo{
-    width: 6%;
-    height: 6%;
-    display:flex;
-    justify-content: flex-end;
-}
+.background{
+    background-image:url(./images/purple-background.png);
+    background-size: 100% 100%;
+    background-position: fixed;  
+} 
 
 main {
     color: rgb(255, 255, 255);
-}
-
-img{
-    border-radius: 45px;
-    text-shadow: 10px 15px;
-}
-a{
-    text-decoration: none;
-}
-nav a{
-    text-decoration: none;  
-    color: white;
-    font-weight:bold;
-    margin: 10px;
-    line-height: 15px;
-    text-shadow: 5px black;
-    border: 2px solid rgb(53, 53, 53);
-    border-radius: 20px
-   }
-
-a:visited {
-    text-decoration: none;  
-    color: white; 
 }
 
 .title{
@@ -48,11 +18,45 @@ a:visited {
     justify-content: space-between;
 }
 
-.background{
-    background-image:url(./images/purple-background.png);
-    background-size: 100% 100%;
-    background-position: fixed;  
-} 
+.logo{
+    width: 6%;
+    height: 6%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+header{
+   background-color:rgb(37, 7, 66);
+   line-height: 1;
+   box-sizing: border-box;
+   text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;  
+    color: white;
+    font-weight:bold;
+    margin: 10px;
+    padding: 2px;
+    line-height: 15px;
+    text-shadow: 5px black;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 20px
+   }
+
+a:visited {
+    text-decoration: none;  
+    color: white; 
+}
+
+img{
+    border-radius: 45px;
+    text-shadow: 10px 15px;
+}
 
 .navbar{
     font-size: 30px;
@@ -62,12 +66,6 @@ a:visited {
     line-height: 40px;  
 }
 
-p{
-    margin: 0 25px;
-    font-size: 25px;
-    line-height: 25px;
-    text-align: center;
-}
 .aboutme{
     margin: 0 0 20px 20px;
 }
@@ -97,11 +95,27 @@ p{
     margin: 15px 0px 15px 0px
 }
 
+.projects p {
+    margin: 15px 15px 15px 25px;
+    font-size: 30px; 
+    line-height: 35px; 
+    text-align: left;
+  }
+
 h2{
     font-size: 55px;
     line-height: 70px;
-    margin: 30px;
+    margin: 30px 30px 30px 50px;
 }
+
+p{
+    margin: 0 25px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
 .content {
     display:flex;
     flex-direction: row-reverse;
@@ -166,31 +180,131 @@ flex-direction:row-reverse;
 justify-content: flex-end;
 }
 
-.placeholder-image{
-width: 40%;
-height: 40%;
-}
-
 .placeholder-about-section{
     text-align: center;
 
 }
 
-.projects p {
-  margin: 15px 15px 15px 25px;
-  font-size: 30px; 
-  line-height: 35px; 
-  text-align: left;
+.placeholder-image{
+width: 40%;
+height: 40%;
 }
-
 
 footer{
     line-height: 25px;
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
+    body{
+        align-items: center;
+    }
+
+    .title{
+        text-align: center;
+        color: rgb(214, 214, 214);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+        background-color:rgb(37, 7, 66);
+        line-height: 1;
+        box-sizing: border-box;
+        text-align: right;
+        flex-direction:column
+     } 
+    
+
+     .logo{
+        width: 6%;
+        height: 6%;
+        display:flex;
+        justify-content: center;
+    }
+
+    .aboutme h1 {
+        font-size: 70px;
+        margin: 25px 0px 10px 10px;
+        text-align: center;
+    }
+    
+    .aboutme-content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        line-height: 1.2
+    }
+
+    .aboutme-content img{
+        height: 60%;
+        width: 60%;
+    }
+
+    h2{
+        font-size: 55px;
+        line-height: 70px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    .projects p {
+        margin: 15px 15px 15px 25px;
+        font-size: 30px; 
+        line-height: 35px; 
+        text-align: center;
+      }
+
+    h3 {
+        font-size: 2em;
+        margin-left: 45px;
+        margin-bottom: 20px;
+        line-height: 1.4em;
+        text-align: center;
+        }
+
+    .content {
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    
+    }
+    .content img{
+        align-items: center;
+        width: 60%;
+        height: 60%;
+    }
+
+    .placeholder-content{
+        text-align: center;
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        }
+
+        .placeholder-content img {
+            width: 60%;
+            height: 60%;
+            margin: 0px 0px 0px 25px;
+            display: flex;
+            align-content: center;
+            }
+
+    img{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
