@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 - Use the nav bar to direct yourself to different parts of the webpage.
 
-![alt text](assets/images/.png)
+![alt text](assets\images\portfolio.png)
 
 ## Credits
 - Rick Welte
