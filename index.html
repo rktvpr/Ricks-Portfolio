@@ -5,10 +5,19 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
     <title>Rick Welte Portfolio</title>
 </head>
+
 <body>
 <main class="background">
+  
   <header>
     <h1 class="title"> Rick Welte's Portfolio 
       <img class="logo" src="assets\images\Rinnegan.png" alt="logo-placeholder">
@@ -27,7 +36,7 @@
   <section id="about-me" class="aboutme">
     <h1 class="about-me-title">About me</h1>
     <div class="aboutme-content">
-      <img class="about-me-img" src="assets\images\placeholder.png" alt="placeholder-sasuke">
+      <img class="about-me-img" src="assets\images\IMG_2089.png" alt="recent-photo">
       <p>Hello! I am 22 years old and live in Bucks County Pennsylvania.
         I am currently an HVAC Installer and Propane specialist. 
         I would like to change career paths due to the harsh working conditions
@@ -43,52 +52,57 @@
   <section id="projects" class="projects">
   <h2>Projects</h2>
 
-  <article class="study-guide">
+  <article>
     <h3>Pre Work Study Guide</h3>
-      <div class="content">
-          <aside class="about-section">
+        <div class="content">
+          <aside>
           <h4>About</h4>
               <p>This was my first application made within UPENN Bootcamp's pre-work. I made this to keep track 
               of my notes and keep them organized initially in the course. I learned basic HTML, CSS, as well as some javascript and how to properly 
               use git and github.
               </p>
           </aside>
-        <!--make img larger then others/ make the imgs hyperlinks-->
-          <img class="study-guide-img" src="assets\images\Prework Study Guide - Brave 9_15_2022 4_40_07 PM.png" alt="prework-study-guide" href="https://rktvpr.github.io/prework-study-guide/">
-      </div>
-        <p class="link-tag">Link to page: <a class= "links" href="https://rktvpr.github.io/prework-study-guide/">Here!</a> </p> 
+          <div class="container">
+            <a href="https://rktvpr.github.io/prework-study-guide/"> <img class="first-image" src="assets\images\Prework Study Guide - Brave 9_15_2022 4_40_07 PM.png" alt="prework-study-guide" href="https://rktvpr.github.io/prework-study-guide/"> </a>
+          </div>
+        </div>
     </article>  
 
-  <article class="bio-page">
+  <article>
     <h3>Biography Page</h3>
-      <div class="content">
-          <aside class="about-section">
-              <h4>About</h4>
+        <div class="content">
+          <aside>
+          <h4>About</h4>
               <p>This page was to give a short description of myself, list my contact information, as well as practice
                 basic HTML and CSS. It gave me a baseline to know where I stand in skill level and showed me where i can improve.
               </p>
           </aside>
-        <img class="bio-page-img"src="assets\images\Student Bio With Attributes - Brave 9_15_2022 4_38_33 PM.png" alt="Bio-page">
-      </div>
-        <p class="link-tag">Link to page: <a class= "links" href="https://rktvpr.github.io/bio-repo/">Here!</a> </p>
-  </article>
+          <div class="container">
+            <a  href="https://rktvpr.github.io/bio-repo/"> <img class="small-image" src="assets\images\Student Bio With Attributes - Brave 9_15_2022 4_38_33 PM.png" alt="Bio-page" href="https://rktvpr.github.io/prework-study-guide/"> </a>
+          </div>
+        </div>
+    </article>  
 
-  <article class="placeholder">
-    <h3>Placeholder</h3>
-     <div class="placeholder-content">
-      <aside class="placeholder-about-section">
-          <h4>About</h4>
-          <p>Placeholder description. Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint,
-             quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
-        </aside>
-          <img class="placeholder-image" src="assets\images\uchiha placeholder.png" alt="placeholder">      
-     </div>
-  </article>
+    <article>
+      <h3>Placeholder</h3>
+          <div class="content">
+            <aside>
+            <h4>About</h4>
+                <p>Placeholder description. Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint,
+                   quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </aside>
+            <div class="container">
+              <a  href="google.com"> <img class="small-image" src="assets\images\uchiha placeholder.png" alt="placeholder"> </a>
+            </div>
+          </div>
+      </article>  
 
  </section>
 
+ 
 <footer id="footer">
   <!--create hover drop down-->
   <h3>Contact information</h3>
