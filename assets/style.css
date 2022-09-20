@@ -235,6 +235,15 @@ footer{
         justify-content: center;
     }
 
+    .navbar{
+        font-size: 30px;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between; 
+        align-items: center;
+        line-height: 60px;  
+    }
+
     .aboutme h1 {
         font-size: 70px;
         margin: 25px 0px 10px 10px;
